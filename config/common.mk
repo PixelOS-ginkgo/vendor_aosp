@@ -166,6 +166,11 @@ PRODUCT_PACKAGES += \
     getcap \
     setcap
 
+# LMOFreeForm
+PRODUCT_PACKAGES += \
+    LMOFreeform \
+    LMOFreeformSidebar
+
 PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
     system/bin/curl \
     system/bin/getcap \
